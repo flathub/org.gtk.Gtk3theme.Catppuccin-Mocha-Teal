@@ -18,8 +18,8 @@ modules:
       - appstream-compose --basename=org.gtk.Gtk3theme.Catppuccin-Mocha-Teal --prefix=${FLATPAK_DEST} --origin=flatpak org.gtk.Gtk3theme.Catppuccin-Mocha-Teal
     sources:
       - type: file
-        url: https://github.com/catppuccin/gtk/releases/download/v-0.2.5/Catppuccin-Mocha-Teal.zip
+        url: https://github.com/catppuccin/gtk/releases/download/v-0.2.7/Catppuccin-Mocha-Teal.zip
         dest-filename: "theme.zip"
-        sha256: 177b7522934827f3954bcfe948d67015ef825412c5463d000cadf40e614a7ad5
+        sha256: 32c99e7a8a552e0ec9154eab40d72a7726ea655850a669c4fec8c5121852337c
       - type: file
         path: org.gtk.Gtk3theme.Catppuccin-Mocha-Teal.appdata.xml
